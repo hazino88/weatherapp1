@@ -9,7 +9,7 @@ const key = '5b16a781acdf685fcce1468d2d2b1719';
 //     });
 
 const requestCity = async (city) => {
-    const baseURL = 'http://api.openweathermap.org/data/2.5/weather'
+    const baseURL = 'https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather'
     const query = `?q=${city}&appid=${key}`;
 
     //make fetch call (promise call)
